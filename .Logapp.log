@@ -1,0 +1,4 @@
+26/11/2021 17:03:20 ERROR com.practice.testData.ContactMain.driverLocalConnection(ContactMain.java:29)  com.practice.testData.ContactMain java.lang.ArithmeticException: / by zero
+26/11/2021 17:03:20 ERROR com.practice.testData.ContactMain.driverLocalConnection(ContactMain.java:31)  com.practice.testData.ContactMain Driver connection Stablised
+26/11/2021 17:03:26 INFO com.practice.testData.ContactMain.webConnection(ContactMain.java:47)  com.practice.testData.ContactMain Contact Page Opened
+26/11/2021 17:03:27 INFO com.practice.testData.ContactMain.closeDriverConnection(ContactMain.java:38)  com.practice.testData.ContactMain Driver connection closed
