@@ -7,5 +7,6 @@ public class BaseClass {
 	public BaseClass() {
 		// TODO Auto-generated constructor stub
 		PropertyConfigurator.configure("log4j.properties");
+		System.out.println("i am add some point Here");
 	}
 }
