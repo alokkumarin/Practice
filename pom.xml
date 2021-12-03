@@ -125,9 +125,8 @@
 				<version>3.0.0-M3</version>
 				<configuration>
 					<suiteXmlFiles>
-						<!--  <suiteXmlFile>testng.xml</suiteXmlFile>  -->
 						<suiteXmlFile>${file1}</suiteXmlFile>
-						<!--  <suiteXmlFile>${file2}</suiteXmlFile> -->
+						
 					</suiteXmlFiles>
 					<testFailureIgnore>true</testFailureIgnore>					
 				</configuration>

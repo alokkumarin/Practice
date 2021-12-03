@@ -29,7 +29,6 @@ public class ContactSalePage {
 	@FindBy(id="fe2215") 
 	WebElement uSubmitButton;
 	
-	
 	public void setUserFirstName(String ufname) {
 		txtFirstName.sendKeys(ufname);
 	}

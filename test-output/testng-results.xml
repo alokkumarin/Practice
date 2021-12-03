@@ -2,24 +2,28 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-26T17:03:16 IST" name="Default suite" finished-at="2021-11-26T17:03:27 IST" duration-ms="10358">
+  <suite started-at="2021-12-03T17:03:49 IST" name="Default suite" finished-at="2021-12-03T17:05:00 IST" duration-ms="70701">
     <groups>
     </groups>
-    <test started-at="2021-11-26T17:03:16 IST" name="Default test" finished-at="2021-11-26T17:03:27 IST" duration-ms="10358">
-      <class name="com.practice.testData.ContactMain">
-        <test-method signature="driverLocalConnection()[pri:0, instance:com.practice.testData.ContactMain@194fad1]" started-at="2021-11-26T17:03:16 IST" name="driverLocalConnection" finished-at="2021-11-26T17:03:20 IST" duration-ms="3369" status="PASS">
+    <test started-at="2021-12-03T17:03:49 IST" name="Default test" finished-at="2021-12-03T17:05:00 IST" duration-ms="70701">
+      <class name="traveler.Booking.mapCabsHomePage">
+        <test-method is-config="true" signature="DriverConnection()[pri:0, instance:traveler.Booking.mapCabsHomePage@4b8ee4de]" started-at="2021-12-03T17:03:49 IST" name="DriverConnection" finished-at="2021-12-03T17:03:52 IST" duration-ms="2654" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- driverLocalConnection -->
-        <test-method signature="webConnection()[pri:0, instance:com.practice.testData.ContactMain@194fad1]" started-at="2021-11-26T17:03:20 IST" name="webConnection" finished-at="2021-11-26T17:03:26 IST" duration-ms="6279" status="PASS">
+        </test-method> <!-- DriverConnection -->
+        <test-method signature="TC_FooterBrokenLinkCheck()[pri:0, instance:traveler.Booking.mapCabsHomePage@4b8ee4de]" started-at="2021-12-03T17:03:52 IST" name="TC_FooterBrokenLinkCheck" finished-at="2021-12-03T17:03:52 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webConnection -->
-        <test-method is-config="true" signature="closeDriverConnection()[pri:0, instance:com.practice.testData.ContactMain@194fad1]" started-at="2021-11-26T17:03:26 IST" name="closeDriverConnection" finished-at="2021-11-26T17:03:27 IST" duration-ms="672" status="PASS">
+        </test-method> <!-- TC_FooterBrokenLinkCheck -->
+        <test-method signature="TC_ListOfFooter_001()[pri:0, instance:traveler.Booking.mapCabsHomePage@4b8ee4de]" started-at="2021-12-03T17:03:52 IST" name="TC_ListOfFooter_001" finished-at="2021-12-03T17:05:00 IST" duration-ms="67890" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeDriverConnection -->
-      </class> <!-- com.practice.testData.ContactMain -->
+        </test-method> <!-- TC_ListOfFooter_001 -->
+        <test-method is-config="true" signature="QuitDriver()[pri:0, instance:traveler.Booking.mapCabsHomePage@4b8ee4de]" started-at="2021-12-03T17:05:00 IST" name="QuitDriver" finished-at="2021-12-03T17:05:00 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+      </class> <!-- traveler.Booking.mapCabsHomePage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
