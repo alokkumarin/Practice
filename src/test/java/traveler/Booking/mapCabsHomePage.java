@@ -69,7 +69,7 @@ public class mapCabsHomePage extends mapCabsBase {
 		
 		@Test
 		public void TC_FooterBrokenLinkCheck() {
-			
+			System.out.println("hi---:");
 		}
 
 	
