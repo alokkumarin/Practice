@@ -1,5 +1,5 @@
-com\practice\testCases\BaseClass.class
 com\practice\pageObjects\ContactSalePage.class
+com\practice\testCases\BaseClass.class
 com\practice\testCases\ExtentReportNG.class
 com\practice\testData\ContactMain.class
 com\practice\utilites\ReadConfig.class

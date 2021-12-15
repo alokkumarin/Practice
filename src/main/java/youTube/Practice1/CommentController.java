@@ -37,6 +37,8 @@ public class CommentController {
             return "comments.jsp";
         }
         comments.addComment(commentForm.getComment());
+        System.out.println(" Code completed");
         return "redirect:/comments";
+        
     }
 }
