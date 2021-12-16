@@ -16,7 +16,7 @@ public class dropDownTest1 {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "D:\\Software\\OTHER SOFTWARE\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\drivers\\\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		
 		driver.get("https://www.webex.com/contact-sales.html");

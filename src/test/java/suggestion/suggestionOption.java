@@ -13,7 +13,7 @@ public class suggestionOption {
 
 	@Test
 	public void selectSuggestionOption() {
-		System.setProperty("webdriver.chrome.driver", "D:\\Software\\OTHER SOFTWARE\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\drivers\\\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 			
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");

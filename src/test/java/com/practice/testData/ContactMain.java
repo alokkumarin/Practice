@@ -19,7 +19,7 @@ WebDriver driver;
 	
   	@Test
  	public void driverLocalConnection()	{	
-  	System.setProperty("webdriver.chrome.driver", "D:\\Software\\OTHER SOFTWARE\\chromedriver.exe");
+  		System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
 	driver = new ChromeDriver();
 	System.out.println("Driver connection Stablised");
 	try {

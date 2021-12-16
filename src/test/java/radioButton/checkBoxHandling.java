@@ -13,7 +13,7 @@ public class checkBoxHandling {
 	@Test
 	public  void checkboxClick() throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "D:\\Software\\OTHER SOFTWARE\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\drivers\\\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 			
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
