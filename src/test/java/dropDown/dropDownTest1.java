@@ -10,14 +10,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
-public class dropDownTest1 {
+import com.practice.testCases.BaseClass;
+
+public class dropDownTest1 extends BaseClass {
 
 	@SuppressWarnings("unchecked")
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\drivers\\\\chromedriver.exe");
-		WebDriver driver=new ChromeDriver();
+	@Test
+	public  void dropDown1Practice() {
 		
 		driver.get("https://www.webex.com/contact-sales.html");
 		

@@ -14,17 +14,10 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class alertMessageHandling {
-	WebDriver driver;
-	@BeforeTest
-	public void myetestBefore(){
-		System.setProperty("webdriver.chrome.driver", "D:\\Software\\OTHER SOFTWARE\\chromedriver.exe");
-		driver = new ChromeDriver();
-			
-		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+import com.practice.testCases.BaseClass;
+
+public class alertMessageHandling extends BaseClass {
 	
-	
-	}
 	
 	@Test
 	public void mytest() throws InterruptedException {
@@ -35,6 +28,8 @@ public class alertMessageHandling {
 			
 		
 		String name = "Alok"; 
+		
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		
 		driver.manage().window().maximize();
 		driver.findElement(By.id("name")).sendKeys(name);
@@ -68,8 +63,4 @@ public class alertMessageHandling {
 		
 	}
 	
-	@AfterTest
-	public void tearDown(){
-		driver.quit();
-	}
 }

@@ -9,13 +9,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
-public class TestCalender {
+import com.practice.testCases.BaseClass;
 
-	public static void main(String[] args) throws InterruptedException {
-		
-		System.setProperty("webdriver.chrome.driver", "D:\\Software\\OTHER SOFTWARE\\chromedriver.exe");
-		WebDriver driver=new ChromeDriver();
+public class TestCalender extends BaseClass {
+
+	@Test
+	public void calenderPractice() throws InterruptedException {
 		driver.get("https://www.hyrtutorials.com/p/calendar-practice.html");
 		driver.manage().window().maximize();
 						

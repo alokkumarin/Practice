@@ -8,13 +8,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class checkBoxHandling {
+import com.practice.testCases.BaseClass;
+
+public class checkBoxHandling extends BaseClass{
 
 	@Test
 	public  void checkboxClick() throws InterruptedException {
-		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\drivers\\\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+		
 			
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().window().maximize();

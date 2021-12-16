@@ -9,13 +9,16 @@ import org.openqa.selenium.WebDriver.Window;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.practice.testCases.BaseClass;
+
 import static org.testng.AssertJUnit.assertEquals;
 import static org.testng.AssertJUnit.assertNotNull;
 
 import java.io.IOException;
 import java.net.*;
 
-public class mapCabsHomePage extends mapCabsBase {
+public class mapCabsHomePage extends BaseClass {
 	
 	int respCode = 200;
 

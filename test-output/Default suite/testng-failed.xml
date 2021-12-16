@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="traveler.Booking.mapCabsHomePage">
+      <class name="alertHandling.alertMessageHandling">
         <methods>
-          <include name="QuitDriver"/>
-          <include name="TC_ListOfFooter_001"/>
-          <include name="DriverConnection"/>
+          <include name="closeDriverConnection"/>
+          <include name="driverLocalConnection"/>
+          <include name="mytest"/>
         </methods>
-      </class> <!-- traveler.Booking.mapCabsHomePage -->
+      </class> <!-- alertHandling.alertMessageHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

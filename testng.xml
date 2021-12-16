@@ -2,16 +2,26 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Test Suite - Account opening">
 
-  <listeners>
-  	<listener class-name="com.practice.testCases.MyListener1"></listener>
-  	
-  </listeners>
+	<listeners>
+		<listener class-name="com.practice.testCases.MyListener1"></listener>
 
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="com.practice.testData.ContactMain"/>
-    </classes>
-  </test> <!-- Test -->
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+
+			
+			<class name="com.practice.testData.ContactMain" />
+			<class name="dropDown.dropDownTest" />
+			<class name="dropDown.dropDownTest1" />
+			<class name="radioButton.checkBoxHandling" />
+			<class name="radioButton.radioButtonHandling" />
+			<class name="suggestion.suggestionOption" />
+			<class name="traveler.Booking.mapCabsHomePage" />
+			<class name="CalederPractice.TestCalender" />
+			<class name="alertHandling.alertMessageHandling" />
+		</classes>
+	</test> <!-- Test -->
 
 
 

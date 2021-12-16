@@ -9,12 +9,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class suggestionOption {
+import com.practice.testCases.BaseClass;
+
+public class suggestionOption extends BaseClass{
 
 	@Test
 	public void selectSuggestionOption() {
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\drivers\\\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+		
 			
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().window().maximize();
